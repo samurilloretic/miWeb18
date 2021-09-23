@@ -1,0 +1,9 @@
+C:\miWeb18\miWeb18.App\miWeb.App.Dominio\bin\Debug\netstandard2.0\miWeb.App.Dominio.deps.json
+C:\miWeb18\miWeb18.App\miWeb.App.Dominio\bin\Debug\netstandard2.0\miWeb.App.Dominio.dll
+C:\miWeb18\miWeb18.App\miWeb.App.Dominio\bin\Debug\netstandard2.0\miWeb.App.Dominio.pdb
+C:\miWeb18\miWeb18.App\miWeb.App.Dominio\obj\Debug\netstandard2.0\miWeb.App.Dominio.csprojAssemblyReference.cache
+C:\miWeb18\miWeb18.App\miWeb.App.Dominio\obj\Debug\netstandard2.0\miWeb.App.Dominio.AssemblyInfoInputs.cache
+C:\miWeb18\miWeb18.App\miWeb.App.Dominio\obj\Debug\netstandard2.0\miWeb.App.Dominio.AssemblyInfo.cs
+C:\miWeb18\miWeb18.App\miWeb.App.Dominio\obj\Debug\netstandard2.0\miWeb.App.Dominio.csproj.CoreCompileInputs.cache
+C:\miWeb18\miWeb18.App\miWeb.App.Dominio\obj\Debug\netstandard2.0\miWeb.App.Dominio.dll
+C:\miWeb18\miWeb18.App\miWeb.App.Dominio\obj\Debug\netstandard2.0\miWeb.App.Dominio.pdb

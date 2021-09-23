@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "g6GhwvcQx0Jd6vx4EosJeFwCZNPf+XEXp/C4uZTAvMvpLT4lI4FmED0V4rADnGdKb8/JHv3JrEu3gP6qPraBXA==",
+  "success": true,
+  "projectFilePath": "C:\\miWeb18\\miWeb18.App\\miWeb.App.Persistencia\\miWeb.App.Persistencia.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\samur\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\samur\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

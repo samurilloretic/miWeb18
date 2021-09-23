@@ -1,0 +1,16 @@
+﻿@page
+@model miWeb.App.Frontend.Pages.ListModel
+@{
+}
+<h1>Listado Saludos</h1>
+<table class="table">
+    @foreach (var saludo in Model.Saludos)
+    {     
+    <tr>
+        <td>@saludo.EnEspañol</td>
+        <td>@saludo.EnIngles</td>
+        <td>@saludo.EnItaliano</td>
+        <td>@saludo.Id</td>
+    </tr>
+    }
+</table>

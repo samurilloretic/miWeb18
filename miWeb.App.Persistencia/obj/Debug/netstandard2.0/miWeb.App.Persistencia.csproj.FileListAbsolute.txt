@@ -1,0 +1,12 @@
+C:\miWeb18\miWeb18.App\miWeb.App.Persistencia\obj\Debug\netstandard2.0\miWeb.App.Persistencia.csprojAssemblyReference.cache
+C:\miWeb18\miWeb18.App\miWeb.App.Persistencia\obj\Debug\netstandard2.0\miWeb.App.Persistencia.AssemblyInfoInputs.cache
+C:\miWeb18\miWeb18.App\miWeb.App.Persistencia\obj\Debug\netstandard2.0\miWeb.App.Persistencia.AssemblyInfo.cs
+C:\miWeb18\miWeb18.App\miWeb.App.Persistencia\obj\Debug\netstandard2.0\miWeb.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\miWeb18\miWeb18.App\miWeb.App.Persistencia\bin\Debug\netstandard2.0\miWeb.App.Persistencia.deps.json
+C:\miWeb18\miWeb18.App\miWeb.App.Persistencia\bin\Debug\netstandard2.0\miWeb.App.Persistencia.dll
+C:\miWeb18\miWeb18.App\miWeb.App.Persistencia\bin\Debug\netstandard2.0\miWeb.App.Persistencia.pdb
+C:\miWeb18\miWeb18.App\miWeb.App.Persistencia\bin\Debug\netstandard2.0\miWeb.App.Dominio.dll
+C:\miWeb18\miWeb18.App\miWeb.App.Persistencia\bin\Debug\netstandard2.0\miWeb.App.Dominio.pdb
+C:\miWeb18\miWeb18.App\miWeb.App.Persistencia\obj\Debug\netstandard2.0\miWeb.App.Persistencia.csproj.CopyComplete
+C:\miWeb18\miWeb18.App\miWeb.App.Persistencia\obj\Debug\netstandard2.0\miWeb.App.Persistencia.dll
+C:\miWeb18\miWeb18.App\miWeb.App.Persistencia\obj\Debug\netstandard2.0\miWeb.App.Persistencia.pdb
