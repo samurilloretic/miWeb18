@@ -26,7 +26,7 @@
 </table>
 
 *@
-
+@*
 <form method="get">
     <div class="form-group">
         <p>
@@ -41,4 +41,22 @@
 @Model.Saludo.EnIngles
 @Model.Saludo.EnItaliano
 
+*@
+<table class="table">
+    @foreach (var saludo in Model.Saludos)
+    {
+        <tr>
+            <td>@saludo.EnEspañol</td>
+            <td>@saludo.EnIngles</td>
+            <td>@saludo.EnItaliano</td>
+            <td>@saludo.Id</td>
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="/Saludos/Detalles" asp-route-saludoId="@saludo.Id">
+                    <i class="fas fa-info-circle"></i>
+                    Detalle Saludo
+                </a>
+            </td>
+        </tr>
+    }
+</table>
 

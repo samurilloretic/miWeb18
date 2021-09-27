@@ -11,5 +11,7 @@ namespace miWeb.App.Persistencia
         IEnumerable<Saludo> GetSaludosPorFiltro(string filtro);
 
         Saludo GetSaludoHora(DateTime filtro);
+
+        Saludo GetSaludoId(int id);
     }
 }

@@ -27,21 +27,21 @@ namespace miWeb.App.Frontend.Pages
             listaSaludos = new List<string>();
             listaSaludos.AddRange(saludos);
         }*/
-        /*
+        
         public void OnGet()
         {
             Saludos=repositoriosaludos.GetAll();
-        }*/
+        }
         /*
         public void OnGet(string filtro)
         {
             Filtro = filtro;
             Saludos=repositoriosaludos.GetSaludosPorFiltro(filtro);
         }*/
-        public void OnGet(DateTime filtroHora)
+        /*public void OnGet(DateTime filtroHora)
         {
             FiltroHora = filtroHora;
             Saludo=repositoriosaludos.GetSaludoHora(filtroHora);
-        }
+        }*/
     }
 }

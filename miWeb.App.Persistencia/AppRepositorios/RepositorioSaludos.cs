@@ -58,5 +58,10 @@ namespace miWeb.App.Persistencia.AppRepositorios
             }
             return saludo;
         }
+
+        public Saludo GetSaludoId(int id)
+        {
+            return saludos.SingleOrDefault(s=>s.Id==id);
+        }
     }
 }

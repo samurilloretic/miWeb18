@@ -40,3 +40,4 @@ C:\miWeb18\miWeb18.App\miWeb.App.Frontend\bin\Debug\netcoreapp3.1\miWeb.App.Domi
 C:\miWeb18\miWeb18.App\miWeb.App.Frontend\bin\Debug\netcoreapp3.1\miWeb.App.Persistencia.dll
 C:\miWeb18\miWeb18.App\miWeb.App.Frontend\bin\Debug\netcoreapp3.1\miWeb.App.Dominio.pdb
 C:\miWeb18\miWeb18.App\miWeb.App.Frontend\bin\Debug\netcoreapp3.1\miWeb.App.Persistencia.pdb
+C:\miWeb18\miWeb18.App\miWeb.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Saludos\Detalles.cshtml.g.cs
