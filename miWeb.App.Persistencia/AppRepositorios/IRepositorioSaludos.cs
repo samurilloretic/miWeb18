@@ -13,5 +13,7 @@ namespace miWeb.App.Persistencia
         Saludo GetSaludoHora(DateTime filtro);
 
         Saludo GetSaludoId(int id);
+
+        Saludo Update(Saludo saludoActualizado);
     }
 }

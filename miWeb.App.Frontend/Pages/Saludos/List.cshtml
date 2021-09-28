@@ -4,42 +4,42 @@
 }
 <h1>Listado Saludos</h1>
 @*
-<form method="get">
+    <form method="get">
     <div class="form-group">
-        <p>
-            Saludo: <input type="text" name="filtro" asp-for="Filtro"/>
-            <input type="submit" value="Filtrar" />
-        </p>
+    <p>
+    Saludo: <input type="text" name="filtro" asp-for="Filtro"/>
+    <input type="submit" value="Filtrar" />
+    </p>
     </div>
-</form>
+    </form>
 
-<table class="table">
+    <table class="table">
     @foreach (var saludo in Model.Saludos)
     {
-        <tr>
-            <td>@saludo.EnEspañol</td>
-            <td>@saludo.EnIngles</td>
-            <td>@saludo.EnItaliano</td>
-            <td>@saludo.Id</td>
-        </tr>
+    <tr>
+    <td>@saludo.EnEspañol</td>
+    <td>@saludo.EnIngles</td>
+    <td>@saludo.EnItaliano</td>
+    <td>@saludo.Id</td>
+    </tr>
     }
-</table>
+    </table>
 
 *@
 @*
-<form method="get">
+    <form method="get">
     <div class="form-group">
-        <p>
-            Saludo: <input type="text" name="filtroHora" asp-for="FiltroHora"/>
-            <input type="submit" value="Filtrar" />
-        </p>
+    <p>
+    Saludo: <input type="text" name="filtroHora" asp-for="FiltroHora"/>
+    <input type="submit" value="Filtrar" />
+    </p>
     </div>
-</form>
+    </form>
 
 
-@Model.Saludo.EnEspañol
-@Model.Saludo.EnIngles
-@Model.Saludo.EnItaliano
+    @Model.Saludo.EnEspañol
+    @Model.Saludo.EnIngles
+    @Model.Saludo.EnItaliano
 
 *@
 <table class="table">
@@ -53,10 +53,12 @@
             <td>
                 <a class="btn btn-primary table-btn" asp-page="/Saludos/Detalles" asp-route-saludoId="@saludo.Id">
                     <i class="fas fa-info-circle"></i>
-                    Detalle Saludo
+                </a>
+                <a class="btn btn-primary table-btn" asp-page="/Saludos/Editar" asp-route-saludoId="@saludo.Id">
+                    <i class="fas fa-address-book fa-lg" aria-hidden="true"></i>
                 </a>
             </td>
         </tr>
     }
 </table>
-
+<a asp-page=".\Editar" class="btn btn-primary">Adicionar Saludo</a>

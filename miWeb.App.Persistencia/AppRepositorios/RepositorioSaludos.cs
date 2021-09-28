@@ -63,5 +63,18 @@ namespace miWeb.App.Persistencia.AppRepositorios
         {
             return saludos.SingleOrDefault(s=>s.Id==id);
         }
+
+        public Saludo Update(Saludo saludoActualizado)
+        {
+            //Console.WriteLine(saludoActualizado.Id);
+            var saludo = saludos.SingleOrDefault(r=>r.Id==saludoActualizado.Id);
+            if(saludo!=null)
+            {
+                saludo.EnEspañol = saludoActualizado.EnEspañol;
+                saludo.EnIngles = saludoActualizado.EnIngles;
+                saludo.EnItaliano = saludoActualizado.EnItaliano;
+            }
+            return saludo;
+        }
     }
 }

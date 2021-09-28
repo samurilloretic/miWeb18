@@ -1,0 +1,21 @@
+﻿@page
+@model miWeb.App.Frontend.Pages.EditarModel
+@{
+}
+<h1>Editar Saludo</h1>
+<form method="post">
+    <input type="hidden" asp-for="Saludo.Id"/>
+    <div class="form-group">
+        <label asp-for="Saludo.EnEspañol"></label>
+        <input asp-for="Saludo.EnEspañol" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="Saludo.EnIngles"></label>
+        <input asp-for="Saludo.EnIngles" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="Saludo.EnItaliano"></label>
+        <input asp-for="Saludo.EnItaliano" class="form-control">
+    </div>
+    <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+</form>
