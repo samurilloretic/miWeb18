@@ -15,5 +15,7 @@ namespace miWeb.App.Persistencia
         Saludo GetSaludoId(int id);
 
         Saludo Update(Saludo saludoActualizado);
+
+        Saludo Add(Saludo saludoNuevo);
     }
 }

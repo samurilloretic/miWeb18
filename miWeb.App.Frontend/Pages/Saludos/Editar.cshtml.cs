@@ -22,17 +22,16 @@ namespace miWeb.App.Frontend.Pages
         public IActionResult OnGet(int? saludoId)
         {
             //Adición
-            /*
             if (saludoId.HasValue)
             {
-                Saludo = repositoriosaludos.GetSaludoId(saludoId);
+                Saludo = repositoriosaludos.GetSaludoId(saludoId.Value);
             }else
             {
                 Saludo = new Saludo();
-            }*/
+            }
 
             //Update
-            Saludo = repositoriosaludos.GetSaludoId(saludoId);
+            //Saludo = repositoriosaludos.GetSaludoId(saludoId);
             if(Saludo==null)
             {
                 return RedirectToPage("./List");
@@ -43,7 +42,13 @@ namespace miWeb.App.Frontend.Pages
         public IActionResult OnPost()
         {
             //Console.WriteLine(Saludo.Id);
-            Saludo = repositoriosaludos.Update(Saludo);
+            if(Saludo.Id>0)
+            {
+                Saludo = repositoriosaludos.Update(Saludo);
+            }else
+            {
+                repositoriosaludos.Add(Saludo);
+            }            
             return Page();
         }
     }
