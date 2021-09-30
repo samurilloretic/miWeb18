@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "g6GhwvcQx0Jd6vx4EosJeFwCZNPf+XEXp/C4uZTAvMvpLT4lI4FmED0V4rADnGdKb8/JHv3JrEu3gP6qPraBXA==",
+  "dgSpecHash": "whMbvmksm+ZMPiDzu2hS7FvLZb8At1LdbnO60DVk6tDRpDsKK7wkNgZQiyJw0eMyy5CndChfJl9MXWpU/YlBXQ==",
   "success": true,
   "projectFilePath": "C:\\miWeb18\\miWeb18.App\\miWeb.App.Persistencia\\miWeb.App.Persistencia.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\samur\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\samur\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\samur\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\samur\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

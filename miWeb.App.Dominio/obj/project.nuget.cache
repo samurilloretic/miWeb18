@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "l1P/yT0AsMniVHGfI2orTSk85mpx3I1rZ1HvWt0ylfyWFJnrvfNJig321cHQjy/3Ck+OvEPvgmQff/QXE7uWRQ==",
+  "dgSpecHash": "/9Bi/UEqMebmPNASPXtuhDO5KI7HMek//5cubC/tcIe71Y7YUtFX8OQt+beI3ALL93CDO74pg9nBaEhhjcVjBA==",
   "success": true,
   "projectFilePath": "C:\\miWeb18\\miWeb18.App\\miWeb.App.Dominio\\miWeb.App.Dominio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\samur\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\samur\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\samur\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\samur\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

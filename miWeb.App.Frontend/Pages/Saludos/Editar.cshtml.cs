@@ -41,6 +41,11 @@ namespace miWeb.App.Frontend.Pages
 
         public IActionResult OnPost()
         {
+            if(!ModelState.IsValid)
+            {
+                return Page();
+            }
+
             //Console.WriteLine(Saludo.Id);
             if(Saludo.Id>0)
             {

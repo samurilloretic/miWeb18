@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "BBHzNwYLrqM4J/QPY4inupf9QfQeXJQb6dVjckI65LrOMNBAiui58S8EKBlwONbyQC372TPlYPkn3WP+8JqljQ==",
+  "dgSpecHash": "drRv4kvv4pkAOx1A3kyMkYm+AWTtrEpXS1NnpOBOiBcE0IxuKwdD669Er0gt9QncmtsH2JcgRcewYSGvO/0WdA==",
   "success": true,
   "projectFilePath": "C:\\miWeb18\\miWeb18.App\\miWeb.App.Frontend\\miWeb.App.Frontend.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\samur\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

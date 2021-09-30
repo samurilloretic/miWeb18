@@ -17,5 +17,7 @@ namespace miWeb.App.Persistencia
         Saludo Update(Saludo saludoActualizado);
 
         Saludo Add(Saludo saludoNuevo);
+
+        Saludo Delete(Saludo saludoEliminar);
     }
 }
